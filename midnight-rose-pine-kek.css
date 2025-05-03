@@ -127,7 +127,7 @@ body {
     --red-5: hsl(343, 76%, 58%);
 
     --green-1: hsl(197, 49%, 43%);
-    --green-2: #31748f;
+    --green-2: var(--accent-2);
     --green-3: #31748f;
     --green-4: hsl(197, 49%, 34%);
     --green-5: hsl(197, 49%, 30%);
