@@ -42,7 +42,7 @@ body {
 
     /* dms button options */
     --custom-dms-icon: custom; /* off: use default discord icon, hide: remove icon entirely, custom: use custom icon */
-    --dms-icon-svg-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* icon svg url. MUST BE A SVG. */
+    --dms-icon-svg-url: url('https://raw.githubusercontent.com/HollowAlx/Midnight/refs/heads/main/Font_Awesome_5_solid_moon.svg'); /* icon svg url. MUST BE A SVG. */
     --dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */
     --dms-icon-color-before: var(--icon-secondary); /* normal icon color */
     --dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
@@ -157,23 +157,17 @@ body {
     .visual-refresh .theme-light:not(.custom-profile-theme) {
         --green-360: var(--accent-2); /* seems to be mostly used by vencord plugins */
         --green-300: var(--accent-1);
-        --status-positive: var(--accent-2) !important;
     }
-	rect[fill='#43a25a'],
-    path[fill='#43a25a'] /* status activity icon */,
-    .vc-platform-indicator > svg[fill="#43a25a"] {
-        fill: var(--online);
-	}
 	.visual-refresh {
 		.colorable_f1ceac.greenGlow_f1ceac {
 			background: #17708267;
 		}
 	}
     .theme-dark {
-        .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
-            background-color: #177082d0;
+        .button_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
+            background-color: var(--accent-4);
         }
-        .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9:hover {
+        .button_e131a9.buttonColor_e131a9.buttonActive_e131a9:hover {
             background-color: #17708267;
         }
     }
