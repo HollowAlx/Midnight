@@ -157,6 +157,7 @@ body {
     .visual-refresh .theme-light:not(.custom-profile-theme) {
         --green-360: var(--accent-2); /* seems to be mostly used by vencord plugins */
         --green-300: var(--accent-1);
+		--green-new-30: var(--accent-1);
     }
 	.visual-refresh {
 		.colorable_f1ceac.greenGlow_f1ceac {
