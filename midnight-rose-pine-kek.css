@@ -1,5 +1,5 @@
 /**
- * @name midnight (rosé pine) edited
+ * @name midnight (rosé pine)
  * @description a dark, customizable discord theme. based on rosé pine theme (https://rosepinetheme.com).
  * @author refact0r
  * @version 2.0.1
@@ -41,7 +41,7 @@ body {
     --window-control-size: 14px; /* size of custom window controls */
 
     /* dms button options */
-    --custom-dms-icon: custom; /* off: use default discord icon, hide: remove icon entirely, custom: use custom icon */
+    --custom-dms-icon: on; /* off: use default discord icon, hide: remove icon entirely, custom: use custom icon */
     --dms-icon-svg-url: url('https://raw.githubusercontent.com/HollowAlx/Midnight/refs/heads/main/Font_Awesome_5_solid_moon.svg'); /* icon svg url. MUST BE A SVG. */
     --dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */
     --dms-icon-color-before: var(--icon-secondary); /* normal icon color */
@@ -160,6 +160,7 @@ body {
 		--green-new-30: var(--accent-1);
     }
 	.visual-refresh {
+		.button
 		.colorable_f1ceac.greenGlow_f1ceac {
 			background: #17708267;
 		}
@@ -168,6 +169,7 @@ body {
         .button_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
             background-color: var(--accent-4);
         }
+		
         .button_e131a9.buttonColor_e131a9.buttonActive_e131a9:hover {
             background-color: #17708267;
         }
