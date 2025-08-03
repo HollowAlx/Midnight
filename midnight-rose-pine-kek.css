@@ -155,12 +155,11 @@ body {
     .visual-refresh body,
     .visual-refresh .theme-dark,
     .visual-refresh .theme-light:not(.custom-profile-theme) {
-        --green-360: var(--accent-2); /* seems to be mostly used by vencord plugins */
-        --green-300: var(--accent-1);
+        --green-360: var(--accent-2) !important; /* seems to be mostly used by vencord plugins */
+        --green-300: var(--accent-1) !important;
 		--green-new-30: var(--accent-1);
     }
 	.visual-refresh {
-		.button
 		.colorable_f1ceac.greenGlow_f1ceac {
 			background: #17708267;
 		}
